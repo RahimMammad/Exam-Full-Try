@@ -1,0 +1,50 @@
+.detail {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .image {
+        position: relative;
+        overflow: hidden;
+        width: 40%;
+    }
+
+
+    .detail-text {
+        padding: 80px;
+        padding-right: 200px;
+
+        h2 {
+            font-size: 56px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        span {
+            font-size: 32px;
+        }
+
+        .add-to {
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+
+            button {
+                width: 120px;
+                height: 40px;
+                background-color: #d7e5d8;
+                border: none;
+                font-size: 14px;
+            }
+
+            button:hover {
+                background-color: antiquewhite;
+                transition: 0.8s;
+            }
+        }
+    }
+}

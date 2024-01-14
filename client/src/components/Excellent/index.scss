@@ -1,0 +1,84 @@
+.slider-page-1 {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl1-967x725.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 320px;
+
+    h3 {
+        text-align: center;
+        color: green;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 46px;
+        font-weight: 500;
+        color: green;
+    }
+}
+
+.slider-page-2 {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 320px;
+
+    h3 {
+        text-align: center;
+        color: green;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 46px;
+        font-weight: 500;
+        color: green;
+    }
+}
+
+.slider-page-3 {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 320px;
+
+    h3 {
+        text-align: center;
+        color: green;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 46px;
+        font-weight: 500;
+        color: green;
+    }
+}
+
+    .swiper-button-next {
+        color: #000 !important;
+    }
+
+    .swiper-button-prev {
+        color: #000 !important;
+    }
+
+@media screen and (max-width: 570px) {
+    h1 {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

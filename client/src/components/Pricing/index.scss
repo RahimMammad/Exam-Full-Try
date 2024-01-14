@@ -1,0 +1,80 @@
+h3 {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    color: green;
+}
+
+h1 {
+    text-align: center;
+    font-size: 46px;
+    margin-top: 10px;
+    font-weight: 400;
+    color: green;
+}
+
+.pricing-main-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 30px;
+
+    .pricing-card {
+        width: 335px;
+        height: 370px;
+        border: 1px solid green;
+        text-align: center;
+        padding-top: 100px;
+
+        h4 {
+            font-size: 32px;
+            font-weight: 500;
+            color: green;
+        }
+
+        p {
+            color: green;
+            width: 243px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
+
+        button {
+            width: 120px;
+            height: 35px;
+            background-color: #d8e5d3;
+            color: green;
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 30px;
+            border: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .pricing-main-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .pricing-main-container {
+        width: 335px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .pricing-main-container {
+        width: 280px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
